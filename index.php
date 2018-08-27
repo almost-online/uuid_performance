@@ -24,7 +24,7 @@ function getUuid()
         mt_rand(0, 0xffff), mt_rand(0, 0xffff), mt_rand(0, 0xffff)
     );
 }
-$link = new PDO('mysql:host=localhost;dbname=test', 'root','qazxswcd');
+$link = new PDO('mysql:host=localhost;dbname=test', 'root','');
 
 function createTmpTable($name, $link) {
    
